@@ -1,0 +1,67 @@
+[ 2016-11-21T10:00:11+08:00 ] ::1 /tpshop/index.php/Admin/Manager/orderadd
+ERR: 非法操作:orderadd
+
+[ 2016-11-21T10:00:12+08:00 ] ::1 /tpshop/index.php/Admin/Manager/orderquery
+ERR: 非法操作:orderquery
+
+[ 2016-11-21T10:00:13+08:00 ] ::1 /tpshop/index.php/Admin/Manager/managerlist
+ERR: 模板不存在:./Application/Admin/View/Manager/managerlist.php
+
+[ 2016-11-21T10:00:20+08:00 ] ::1 /tpshop/index.php/Admin/Manager/orderquery
+ERR: 非法操作:orderquery
+
+[ 2016-11-21T10:00:22+08:00 ] ::1 /tpshop/index.php/Admin/Manager/managerlist
+ERR: 模板不存在:./Application/Admin/View/Manager/managerlist.php
+
+[ 2016-11-21T13:30:47+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodsadd
+ERR: 1054:Unknown column 'add' in 'field list'
+ [ SQL语句 ] : INSERT INTO `ecs_goods` (`goods_name`,`goods_sn`,`cat_id`,`brand_id`,`shop_price`,`goods_number`,`add_time`,`market_price`,`keywords`,`goods_brief`,`add`) VALUES ('fadff','','0','0','1000','1','','0','','','1479706247')
+
+[ 2016-11-21T13:31:14+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodsadd
+ERR: 1054:Unknown column 'add' in 'field list'
+ [ SQL语句 ] : INSERT INTO `ecs_goods` (`goods_name`,`goods_sn`,`cat_id`,`brand_id`,`shop_price`,`goods_number`,`add_time`,`market_price`,`keywords`,`goods_brief`,`add`) VALUES ('f','','0','0','100','1','','0','','','1479706274')
+
+[ 2016-11-21T15:22:47+08:00 ] ::1 /tpshop/index.php/Admin/Goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2016-11-21T15:26:38+08:00 ] ::1 /tpshop/index.php/Admin/Goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2016-11-21T15:26:52+08:00 ] ::1 /tpshop/index.php/Admin/Goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2016-11-21T17:59:25+08:00 ] ::1 /tpshop/index.php/admin/GOODS/goodslist.html
+ERR: 无法加载控制器:GOODS
+
+[ 2016-11-21T22:01:36+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodslist/p/1/ios/1/queue/shop_price.html?g_name=&pmin=&pmax=&intro_type=&queue=shop_price&ios=1&keyword=
+ERR: 1054:Unknown column '$queue' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ecs_goods` WHERE `is_on_sale` = '1' ORDER BY $queue desc LIMIT 0,8  
+
+[ 2016-11-21T22:08:53+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodslist/p/1/ios/1/queue/shop_price.html?g_name=&pmin=&pmax=&intro_type=&queue=goods_number&ios=1&keyword=
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ecs_goods` WHERE `is_on_sale` = '1' ORDER BY id desc LIMIT 0,8  
+
+[ 2016-11-21T22:11:46+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodslist/p/1/ios/1/queue/shop_price.html?g_name=&pmin=&pmax=&intro_type=&queue=shop_price&ios=1&keyword=
+ERR: 1054:Unknown column '$queue' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ecs_goods` WHERE `is_on_sale` = '1' ORDER BY $queue desc LIMIT 0,8  
+
+[ 2016-11-21T22:32:37+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodslist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 0,8' at line 1
+ [ SQL语句 ] : SELECT * FROM `ecs_goods` ORDER BY  desc LIMIT 0,8  
+
+[ 2016-11-21T22:32:55+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodslist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 0,8' at line 1
+ [ SQL语句 ] : SELECT * FROM `ecs_goods` ORDER BY  desc LIMIT 0,8  
+
+[ 2016-11-21T22:33:17+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodslist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 0,8' at line 1
+ [ SQL语句 ] : SELECT * FROM `ecs_goods` ORDER BY  desc LIMIT 0,8  
+
+[ 2016-11-21T22:33:43+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodslist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 0,8' at line 1
+ [ SQL语句 ] : SELECT * FROM `ecs_goods` ORDER BY  desc LIMIT 0,8  
+
+[ 2016-11-21T22:34:29+08:00 ] ::1 /tpshop/index.php/Admin/Goods/goodslist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 0,8' at line 1
+ [ SQL语句 ] : SELECT * FROM `ecs_goods` ORDER BY  desc LIMIT 0,8  
+

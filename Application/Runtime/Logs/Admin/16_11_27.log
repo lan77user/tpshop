@@ -1,0 +1,3 @@
+[ 2016-11-27T14:17:24+08:00 ] ::1 /tpshop/index.php/Admin/Manager/managerlist
+ERR: 模板不存在:./Application/Admin/View/Manager/managerlist.php
+

@@ -1,0 +1,24 @@
+[ 2016-11-20T17:24:54+08:00 ] ::1 /tpshop/index.php/Admin/index/menu
+ERR: 1146:Table 'tpshop.ecs_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ecs_admin`
+
+[ 2016-11-20T17:25:43+08:00 ] ::1 /tpshop/index.php/Admin/index/menu
+ERR: 1146:Table 'tpshop.ecs_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ecs_admin`
+
+[ 2016-11-20T17:27:13+08:00 ] ::1 /tpshop/index.php/Admin/index/menu
+ERR: 1146:Table 'tpshop.ecs_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ecs_admin`
+
+[ 2016-11-20T17:27:31+08:00 ] ::1 /tpshop/index.php/Admin/index/menu
+ERR: 1146:Table 'tpshop.ecs_manager' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ecs_manager`
+
+[ 2016-11-20T18:09:15+08:00 ] ::1 /tpshop/index.php/admin/index/menu.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''100,103,104,101,106,107' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ecs_power` WHERE ( power_level = 0 and power_id in '100,103,104,101,106,107' ) 
+
+[ 2016-11-20T18:09:25+08:00 ] ::1 /tpshop/index.php/Admin/index/menu
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''100,103,104,101,106,107' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ecs_power` WHERE ( power_level = 0 and power_id in '100,103,104,101,106,107' ) 
+

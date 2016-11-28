@@ -1,0 +1,94 @@
+[ 2016-11-24T16:04:00+08:00 ] ::1 /tpshop/index.php/Admin/Goods/categorylist
+ERR: Think\Model:getTree方法不存在！
+
+[ 2016-11-24T16:23:03+08:00 ] ::1 /tpshop/index.php/Admin/Goods/categorylist
+ERR: Think\Model:getTree方法不存在！
+
+[ 2016-11-24T16:30:05+08:00 ] ::1 /tpshop/index.php/Admin/Goods/categorylist
+ERR: Think\Model:getTree方法不存在！
+
+[ 2016-11-24T17:05:32+08:00 ] ::1 /tpshop/index.php/Admin/Goods/categorylist
+ERR: 模板不存在:./Application/Admin/View/Goods/categorylist.php
+
+[ 2016-11-24T17:05:38+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: 非法操作:categorylist
+
+[ 2016-11-24T17:05:43+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: 非法操作:categorylist
+
+[ 2016-11-24T17:05:49+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: 非法操作:categorylist
+
+[ 2016-11-24T17:05:54+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: 非法操作:categorylist
+
+[ 2016-11-24T17:05:57+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: 非法操作:categorylist
+
+[ 2016-11-24T17:06:54+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: 非法操作:categorylist
+
+[ 2016-11-24T17:06:56+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: 非法操作:categorylist
+
+[ 2016-11-24T17:07:37+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: Think\Model:getTree方法不存在！
+
+[ 2016-11-24T17:42:51+08:00 ] ::1 /tpshop/index.php/admin/goods/categorylist.html
+ERR: 模板不存在:./Application/Admin/View/Goods/categorylist.php
+
+[ 2016-11-24T20:46:42+08:00 ] ::1 /tpshop/index.php/Admin/Category/goodsDelete?goods_id=
+ERR: 非法操作:goodsDelete
+
+[ 2016-11-24T20:46:54+08:00 ] ::1 /tpshop/index.php/Admin/Category/goodsDelete?goods_id=
+ERR: 非法操作:goodsDelete
+
+[ 2016-11-24T21:02:36+08:00 ] ::1 /tpshop/index.php/Admin/category/categoryDelete&catid=1.html
+ERR: 非法操作:categoryDelete&catid=1
+
+[ 2016-11-24T21:04:13+08:00 ] ::1 /tpshop/index.php/Admin/category/categoryDelete/catid/%3C%3Fphp+echo+%28%24val%5B%22cat_id%22%5D%29%3B+%3F%3E.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `ecs_category` WHERE ( cat_id= )
+
+[ 2016-11-24T21:06:32+08:00 ] ::1 /tpshop/index.php/Admin/Category/categotylist.html
+ERR: 非法操作:categotylist
+
+[ 2016-11-24T21:15:12+08:00 ] ::1 /tpshop/index.php/admin/goods/categorylist.html
+ERR: 模板不存在:./Application/Admin/View/Goods/categorylist.php
+
+[ 2016-11-24T21:15:22+08:00 ] ::1 /tpshop/index.php/admin/goods/categorylist.html
+ERR: 模板不存在:./Application/Admin/View/Goods/categorylist.php
+
+[ 2016-11-24T21:15:35+08:00 ] ::1 /tpshop/index.php/admin/categoty/categorylist.html
+ERR: 无法加载控制器:Categoty
+
+[ 2016-11-24T22:06:34+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: 非法操作:categorylist
+
+[ 2016-11-24T22:06:36+08:00 ] ::1 /tpshop/index.php/Admin/Category/categorylist
+ERR: 非法操作:categorylist
+
+[ 2016-11-24T22:38:24+08:00 ] ::1 /tpshop/index.php/admin/Categoty/categoryAdd.html
+ERR: 无法加载控制器:Categoty
+
+[ 2016-11-24T22:41:55+08:00 ] ::1 /tpshop/index.php/Admin/Goods/categorylist
+ERR: 模板不存在:./Application/Admin/View/Goods/categorylist.php
+
+[ 2016-11-24T22:42:16+08:00 ] ::1 /tpshop/index.php/Admin/Goods/categorylist
+ERR: 模板不存在:./Application/Admin/View/Goods/categorylist.php
+
+[ 2016-11-24T22:43:08+08:00 ] ::1 /tpshop/index.php/Admin/Goods/categorylist
+ERR: 模板不存在:./Application/Admin/View/Goods/categorylist.php
+
+[ 2016-11-24T22:43:10+08:00 ] ::1 /tpshop/index.php/Admin/Goods/categorylist
+ERR: 模板不存在:./Application/Admin/View/Goods/categorylist.php
+
+[ 2016-11-24T22:48:04+08:00 ] ::1 /tpshop/index.php/Admin/Manager/managerlist
+ERR: 模板不存在:./Application/Admin/View/Manager/managerlist.php
+
+[ 2016-11-24T22:48:05+08:00 ] ::1 /tpshop/index.php/Admin/Manager/orderquery
+ERR: 非法操作:orderquery
+
+[ 2016-11-24T22:48:06+08:00 ] ::1 /tpshop/index.php/Admin/Manager/orderadd
+ERR: 非法操作:orderadd
+
