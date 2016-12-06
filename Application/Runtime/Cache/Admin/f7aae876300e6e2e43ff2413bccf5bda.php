@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>
-            <span class="action-span"><a href="__MUDULE__/"><?php echo $page_right;?></a></span>
+            <span class="action-span"><a href="goodsList"><?php echo $page_right;?></a></span>
             <span class="action-span1"><a href="<?php echo U('admin/Index/index');?>">ECSHOP 管理中心</a></span>
             <span id="search_id" class="action-span1"> - <?php echo $page_name;?> </span>
             <div style="clear:both"></div>
@@ -17,7 +17,11 @@
 <div class="tab-div">
     <div id="tabbar-div">
         <p>
-            <span class="tab-front" id="general-tab">通用信息</span>
+            <span class="tab-front" id="general-tab">基本信息</span>
+            <span class="tab-front" id="general-tab">商品描述</span>
+            <span class="tab-front" id="general-tab">会员价格</span>
+            <span class="tab-front" id="general-tab">商品属性</span>
+            <span class="tab-front" id="general-tab">商品相册</span>
         </p>
     </div>
     <div id="tabbody-div">

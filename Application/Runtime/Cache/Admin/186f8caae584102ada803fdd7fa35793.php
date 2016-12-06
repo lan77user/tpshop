@@ -90,20 +90,20 @@
                     </tr>
                     <?php foreach ($row as $key => $val): ?>
                         <tr>
-                            <td align="center"><<?php echo ($val["goods_id"]); ?>></td>
-                            <td align="center" class="first-cell"><span><?php echo ($val["goods_name"]); ?></span></td>
-                            <td align="center"><span onclick=""><<?php echo ($val["add_time"]); ?>></span></td>
-                            <td align="center"><span><<?php echo ($val["shop_price"]); ?>></span></td>
+                            <td align="center"><<?php echo $val['goods_id']; ?>></td>
+                            <td align="center" class="first-cell"><span><?php echo $val['goods_name']; ?></span></td>
+                            <td align="center"><span onclick=""><<?php echo $val['add_time']; ?>></span></td>
+                            <td align="center"><span><<?php echo $val['shop_price']; ?>></span></td>
                             <td align="center"><img src="<?php if(($val["is_onsale"] == 1)): ?>/tpshop/Public/Admin/images/yes.gif <?php else: ?> /tpshop/Public/Admin/images/no.gif<?php endif; ?>"/></td>
                             <td align="center"><img src="<?php if(($val["is_best"] == 1)): ?>/tpshop/Public/Admin/images/yes.gif <?php else: ?> /tpshop/Public/Admin/images/no.gif<?php endif; ?>"/></td>
                             <td align="center"><img src="<?php if(($val["is_new"] == 1)): ?>/tpshop/Public/Admin/images/yes.gif <?php else: ?> /tpshop/Public/Admin/images/no.gif<?php endif; ?>"/></td>
                             <td align="center"><img src="<?php if(($val["is_hot"] == 1)): ?>/tpshop/Public/Admin/images/yes.gif <?php else: ?> /tpshop/Public/Admin/images/no.gif<?php endif; ?>"/></td>
-                            <td align="center"><img src="<?php if($val["brand_name"] == null): echo (SITE_URL); echo ($val["goods_img"]); else: echo (SITE_URL); ?>Public/Admin/<?php echo ($val["goods_img"]); endif; ?>" style="width: 40px; height: 45px;"></td>
-                            <td align="center"><span><?php echo ($val["goods_number"]); ?></span></td>
+                            <td align="center"><img src="<?php if(($val["brand_name"] == null)): echo (SITE_URL); $val['goods_img']; else: echo (SITE_URL); ?>Public/Admin/<?php echo $val['goods_img']; endif; ?>" style="width: 40px; height: 45px;"></td>
+                            <td align="center"><span><?php echo $val['goods_number']; ?></span></td>
                             <td align="center">
-                                <a href="/tpshop/index.php/Admin/Goods/goodsSee?goods_id=<?php echo ($val["goods_id"]); ?>" target="_blank" title="查看"><img src="/tpshop/Public/Admin/images/icon_view.gif" width="16" height="16" border="0" /></a>
-                                <a href="/tpshop/index.php/Admin/Goods/goodsEdit?goods_id=<?php echo ($val["goods_id"]); ?>" title="编辑"><img src="/tpshop/Public/Admin/images/icon_edit.gif" width="16" height="16" border="0" /></a>
-                                <a href="/tpshop/index.php/Admin/Goods/goodsDelete?goods_id=<?php echo ($val["goods_id"]); ?>" onclick="" title="回收站"><img src="/tpshop/Public/Admin/images/icon_trash.gif" width="16" height="16" border="0" /></a></td>
+                                <a href="/tpshop/index.php/Admin/Goods/goodsSee?goods_id=<?php echo $val['goods_id']; ?>" target="_blank" title="查看"><img src="/tpshop/Public/Admin/images/icon_view.gif" width="16" height="16" border="0" /></a>
+                                <a href="/tpshop/index.php/Admin/Goods/goodsEdit?goods_id=<?php echo $val['goods_id']; ?>" title="编辑"><img src="/tpshop/Public/Admin/images/icon_edit.gif" width="16" height="16" border="0" /></a>
+                                <a href="/tpshop/index.php/Admin/Goods/goodsDelete?goods_id=<?php echo $val['goods_id']; ?>" onclick="" title="回收站"><img src="/tpshop/Public/Admin/images/icon_trash.gif" width="16" height="16" border="0" /></a></td>
                         </tr>
                     <?php endforeach; ?>
                 </table>
@@ -113,7 +113,7 @@
                     <tr>
                         <td width="80%">&nbsp;</td>
                         <td align="center" nowrap="true">
-                            <?php echo ($show); ?>
+                            <?php echo $show; ?>
                         </td>
                     </tr>
                 </table>

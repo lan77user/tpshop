@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>
-            <span class="action-span"><a href="<?php echo U('admin/Goods/goodsAdd');?>"><?php echo $page_right;?></a></span>
+            <span class="action-span"><a href="goodsList"><?php echo $page_right;?></a></span>
             <span class="action-span1"><a href="<?php echo U('admin/Index/index');?>">ECSHOP 管理中心</a></span>
             <span id="search_id" class="action-span1"> - <?php echo $page_name;?> </span>
             <div style="clear:both"></div>
@@ -17,7 +17,11 @@
 <div class="tab-div">
     <div id="tabbar-div">
         <p>
-            <span class="tab-front" id="general-tab">通用信息</span>
+            <span class="tab-front" id="general-tab">基本信息</span>
+            <span class="tab-front" id="general-tab">商品描述</span>
+            <span class="tab-front" id="general-tab">会员价格</span>
+            <span class="tab-front" id="general-tab">商品属性</span>
+            <span class="tab-front" id="general-tab">商品相册</span>
         </p>
     </div>
     <div id="tabbody-div">
@@ -26,7 +30,7 @@
                 <tr>
                     <td class="label">商品名称：</td>
                     <td><input type="text" name="goods_name" value=""size="30" />
-                    <span style="color: red;"><?php echo ($errorInfo["goods_name"]); ?></span></td>
+                    <span style="color: red;"><?php echo $errorInfo['goods_name']; ?></span></td>
                 </tr>
                 <tr>
                     <td class="label">商品货号： </td>
@@ -41,7 +45,7 @@
                     <td>
                         <select name="cat_id">
                             <option value="0">请选择...</option>
-                            <?php if(is_array($cat_list)): foreach($cat_list as $key=>$val): ?><option value="<<?php echo ($val["cat_id"]); ?>>"><<?php echo (str_repeat('&nbsp;&nbsp;',$val["lev"])); ?>><<?php echo ($val["cat_name"]); ?>></option><?php endforeach; endif; ?>
+                            <?php if(is_array($cat_list)): foreach($cat_list as $key=>$val): ?><option value="<<?php echo $val['cat_id']; ?>>"><<?php echo (str_repeat('&nbsp;&nbsp;',$val["lev"])); ?>><<?php echo $val['cat_name']; ?>></option><?php endforeach; endif; ?>
                         </select>
                         <span class="require-field">*</span>
                     </td>
@@ -52,7 +56,7 @@
                         <select name="brand_id">
                             <option value="0">请选择...</option>
                            <?php foreach ($row as $key => $val):?>
-                            <option value="<<?php echo ($val["brand_id"]); ?>>"><<?php echo ($val["brand_name"]); ?>></option>
+                            <option value="<<?php echo $val['brand_id']; ?>>"><<?php echo $val['brand_name']; ?>></option>
                             <?php endforeach;?>
                         </select>
                     </td>
@@ -61,14 +65,14 @@
                     <td class="label">本店售价：</td>
                     <td>
                         <input type="text" name="shop_price" value="" size="20"/>
-                        <span style="color: red;"><?php echo ($errorInfo["shop_price"]); ?></span>
+                        <span style="color: red;"><?php echo $errorInfo['shop_price']; ?></span>
                     </td>
                 </tr>
                 <tr>
                     <td class="label">商品数量：</td>
                     <td>
                         <input type="text" name="goods_number" size="8" value=""/>
-                        <span style="color: red;"><?php echo ($errorInfo["goods_number"]); ?></span>
+                        <span style="color: red;"><?php echo $errorInfo['goods_number']; ?></span>
                     </td>
                 </tr>
                 <tr>

@@ -1,4 +1,14 @@
 <?php
+
+/**
+ * 为一个顶大你生辰支付宝支付按钮
+ * @param type $orderId
+ */
+function makeAlipayBtn($orderId,$btnName = "去支付宝支付"){
+    return require('./alipay/alipayapi.php');
+}
+
+
 //有选择性的过滤html文字，性能低，尽量少用
  function removeXSS($data){
     require_once CORE_PATH . '../Public/HtmlPurifier/HTMLPurifier.auto.php';

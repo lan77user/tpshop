@@ -2,7 +2,11 @@
 <div class="tab-div">
     <div id="tabbar-div">
         <p>
-            <span class="tab-front" id="general-tab">通用信息</span>
+            <span class="tab-front" id="general-tab">基本信息</span>
+            <span class="tab-front" id="general-tab">商品描述</span>
+            <span class="tab-front" id="general-tab">会员价格</span>
+            <span class="tab-front" id="general-tab">商品属性</span>
+            <span class="tab-front" id="general-tab">商品相册</span>
         </p>
     </div>
     <div id="tabbody-div">

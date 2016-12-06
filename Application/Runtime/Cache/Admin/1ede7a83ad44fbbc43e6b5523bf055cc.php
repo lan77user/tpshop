@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>
-            <span class="action-span"><a href="__MUDULE__/"><?php echo $page_right;?></a></span>
+            <span class="action-span"><a href="goodsList"><?php echo $page_right;?></a></span>
             <span class="action-span1"><a href="<?php echo U('admin/Index/index');?>">ECSHOP 管理中心</a></span>
             <span id="search_id" class="action-span1"> - <?php echo $page_name;?> </span>
             <div style="clear:both"></div>

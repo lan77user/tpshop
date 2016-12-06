@@ -14,7 +14,7 @@
             <div style="clear:both"></div>
         </h1>
         <div class="form-div">
-            <form action="/tpshop/index.php/Admin/Goods/goodslist" name="searchForm" method="get">
+            <form action="/tpshop/index.php/Admin/Goods/goodslist/p/4.html" name="searchForm" method="get">
                 <img src="/tpshop/Public/Admin/images/icon_search.gif" width="26" height="22" border="0" alt="search" />
                 <!-- 商品名称 -->
                 <span>
