@@ -26,7 +26,7 @@ class GoodsModel extends Model{
 //        获取当前时间并添加插入数据库
         $data['add_time'] = date('Y-m-d H:i:s',time());
         //把post过来的数据使用自定义的html函数进行过滤
-        $data['goods_desc'] = removeXSS($_POST['goods_desc']);
+//        $data['goods_desc'] = removeXSS($_POST['goods_desc']);
         
     }
     public function getAll() {

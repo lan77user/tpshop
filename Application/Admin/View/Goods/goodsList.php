@@ -98,7 +98,8 @@
                             <td align="center"><img src="<if condition='($val.is_best eq 1)'> __PUBLIC__/Admin/images/yes.gif <else/> __PUBLIC__/Admin/images/no.gif </if>"/></td>
                             <td align="center"><img src="<if condition='($val.is_new eq 1)'> __PUBLIC__/Admin/images/yes.gif <else/> __PUBLIC__/Admin/images/no.gif </if>"/></td>
                             <td align="center"><img src="<if condition='($val.is_hot eq 1)'> __PUBLIC__/Admin/images/yes.gif <else/> __PUBLIC__/Admin/images/no.gif </if>"/></td>
-                            <td align="center"><img src="<if condition='($val.brand_name eq null)'>{$Think.const.SITE_URL}<?php $val['goods_img']; ?><else/>{$Think.const.SITE_URL}Public/Admin/<?php echo $val['goods_img']; ?></if>" style="width: 40px; height: 45px;"></td>
+                            <!--<{$Think.const.SITE_URL}>-->
+                            <td align="center"><img src="<if condition='($val.brand_name eq null)'>{$Think.const.SITE_URL}<?php echo $val['goods_img']; ?><else/>{$Think.const.SITE_URL}Public/Admin/<?php echo $val['goods_img']; ?></if>" style="width: 40px; height: 45px;"></td>
                             <td align="center"><span><?php echo $val['goods_number']; ?></span></td>
                             <td align="center">
                                 <a href="__CONTROLLER__/goodsSee?goods_id=<?php echo $val['goods_id']; ?>" target="_blank" title="查看"><img src="__PUBLIC__/Admin/images/icon_view.gif" width="16" height="16" border="0" /></a>

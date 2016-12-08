@@ -111,13 +111,14 @@ class GoodsController extends Controller {
 //    添加商品。未完善，重置按钮没有完成
     public function goodsAddAction() {
 
-        $GoodsAdd = new GoodsModel;
+        $GoodsAdd = new GoodsModel();
         if (!empty($_POST)) {
 //            处理附件图片,制作缩略图
             if ($_FILES['goods_img']['error'] < 4) {
                 $config = array(
                     'rootPath' => './Public/Upload/', //设置保存路径
                 );
+                
                 $up = new Upload($config);
 //                uploadOne方法执行成功后会把附件在服务器上的名字和路径等相关信息给我们返回
                 $row = $up->uploadOne($_FILES['goods_img']);

@@ -14,7 +14,7 @@
             <div style="clear:both"></div>
         </h1>
         <div class="form-div">
-            <form action="/tpshop/index.php/Admin/Goods/goodsList" name="searchForm" method="get">
+            <form action="/tpshop/index.php/Admin/Goods/goodsList/p/5.html" name="searchForm" method="get">
                 <img src="/tpshop/Public/Admin/images/icon_search.gif" width="26" height="22" border="0" alt="search" />
                 <!-- 商品名称 -->
                 <span>
@@ -98,7 +98,8 @@
                             <td align="center"><img src="<?php if(($val["is_best"] == 1)): ?>/tpshop/Public/Admin/images/yes.gif <?php else: ?> /tpshop/Public/Admin/images/no.gif<?php endif; ?>"/></td>
                             <td align="center"><img src="<?php if(($val["is_new"] == 1)): ?>/tpshop/Public/Admin/images/yes.gif <?php else: ?> /tpshop/Public/Admin/images/no.gif<?php endif; ?>"/></td>
                             <td align="center"><img src="<?php if(($val["is_hot"] == 1)): ?>/tpshop/Public/Admin/images/yes.gif <?php else: ?> /tpshop/Public/Admin/images/no.gif<?php endif; ?>"/></td>
-                            <td align="center"><img src="<?php if(($val["brand_name"] == null)): echo (SITE_URL); $val['goods_img']; else: echo (SITE_URL); ?>Public/Admin/<?php echo $val['goods_img']; endif; ?>" style="width: 40px; height: 45px;"></td>
+                            <<?php echo (SITE_URL); ?>>
+                            <td align="center"><img src="<?php if(($val["brand_name"] == null)): echo (SITE_URL); echo $val['goods_img']; else: echo (SITE_URL); ?>Public/Admin/<?php echo $val['goods_img']; endif; ?>" style="width: 40px; height: 45px;"></td>
                             <td align="center"><span><?php echo $val['goods_number']; ?></span></td>
                             <td align="center">
                                 <a href="/tpshop/index.php/Admin/Goods/goodsSee?goods_id=<?php echo $val['goods_id']; ?>" target="_blank" title="查看"><img src="/tpshop/Public/Admin/images/icon_view.gif" width="16" height="16" border="0" /></a>
